@@ -1,0 +1,17 @@
+-main ApplicationMain 
+-cp /usr/lib/haxe/lib/openfl/2,2,8
+-D openfl=2.2.8
+-cp /usr/lib/haxe/lib/lime/2,3,0
+-D lime=2.3.0
+-cp /usr/lib/haxe/lib/actuate/1,8,4
+-D actuate=1.8.4
+-cp src
+-D tools=2.3.0
+-D no-compilation
+-D openfl-flash
+-D web
+-swf-version 11.2
+-swf bin/flash/bin/SUPADUPAPROJECT.swf
+-swf-header 800:480:60:000000
+-cp bin/flash/haxe
+-D final
